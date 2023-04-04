@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  name: any[] = [];
+
+  constructor(){
+    this.name = [
+      {fname: 'Akash', lname : 'Tayde'},
+      {fname: 'Rutuja', lname: 'Patil'},
+      {fname: 'Ritesh', lname : 'Yadav'},
+      {fname: 'Ashish', lanme: 'Vishwakrma'}
+    ]
+  }
+
+  message:any;
+
 }
